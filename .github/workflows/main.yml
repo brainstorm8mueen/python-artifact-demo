@@ -23,5 +23,5 @@ jobs:
       - name: Upload result as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: python-result-file
-          path: result.txt
+          name: python-results-file
+          path: results.txt
